@@ -32,16 +32,17 @@ Este projeto tem como objetivo explorar o uso de conversores analógico-digitais
 ## Instalação e Execução
 1. Clone o repositório:
    ```sh
-   git clone <URL_DO_REPOSITORIO>
+   git clone https://github.com/saturnino028/U4C8O12T_Conversor_AD.git
    ```
 2. Compile e carregue o firmware na placa RP2040.
 3. Execute o programa e siga as instruções no display para calibração do joystick.
 
 ## Estrutura do Código
 - **`main.c`**: Contém a lógica principal do projeto.
-- **`joystick.c` e `joystick.h`**: Manipula a leitura e calibração do joystick.
-- **`display.c` e `display.h`**: Controla o display SSD1306.
-- **`pwm.c` e `pwm.h`**: Gerencia a intensidade dos LEDs RGB.
+- **`fonte.h`**: Ffontes display SSD1306.
+- **`gpio_contrl.c` e `gpio_contrl.h`**: funções de controle de gpio, joystick, interrupção e modo gravação.
+- **`pwm_contrl.c` e `pwm_contrl.h`**: Gerencia as funções PWM que controlam o brilho dos LEDs.
+- **`ssd1306.c` e `ssd1306.h`**: Controle do display SSD1306.
 
 ## Demonstração
 <--to do-->
