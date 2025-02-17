@@ -39,8 +39,8 @@ Este projeto tem como objetivo explorar o uso de conversores analógico-digitais
 
 ## Estrutura do Código
 - **`main.c`**: Contém a lógica principal do projeto.
-- **`fonte.h`**: Ffontes display SSD1306.
-- **`gpio_contrl.c` e `gpio_contrl.h`**: funções de controle de gpio, joystick, interrupção e modo gravação.
+- **`fonte.h`**: Fontes display SSD1306.
+- **`gpio_contrl.c` e `gpio_contrl.h`**: Funções de controle de gpio, joystick, interrupção e modo gravação.
 - **`pwm_contrl.c` e `pwm_contrl.h`**: Gerencia as funções PWM que controlam o brilho dos LEDs.
 - **`ssd1306.c` e `ssd1306.h`**: Controle do display SSD1306.
 
