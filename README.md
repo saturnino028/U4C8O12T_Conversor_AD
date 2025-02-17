@@ -45,8 +45,7 @@ Este projeto tem como objetivo explorar o uso de conversores analógico-digitais
 - **`ssd1306.c` e `ssd1306.h`**: Controle do display SSD1306.
 
 ## Demonstração
-<--to do-->
-- Um vídeo demonstrativo do funcionamento do projeto pode ser acessado em: [](url).
+- Um vídeo demonstrativo do funcionamento do projeto pode ser acessado em: [Demonstração](url).
 
 ## Considerações Finais
 Este projeto é uma excelente oportunidade para consolidar conhecimentos em eletrônica embarcada, ADCs, PWM e comunicação I2C.
