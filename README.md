@@ -8,12 +8,13 @@ Este projeto tem como objetivo explorar o uso de conversores analógico-digitais
   - LED Azul ajusta o brilho conforme o eixo Y do joystick.
   - LED Vermelho ajusta o brilho conforme o eixo X do joystick.
   - LEDs controlados via PWM para variação suave de intensidade.
+  - O **botão A** ativa e desativa a função PWM.
 - **Exibição Gráfica no SSD1306:**
   - Um quadrado de 8x8 pixels representa a posição do joystick na tela.
-  - O botão do joystick altera a borda do display ao ser pressionado.
+  - O **botão do joystick** altera a borda do display ao ser pressionado e alterna o estado do LED verde.
 - **Funções Adicionais:**
-  - **Calibração do Joystick:** Ajusta automaticamente os valores máximos, mínimos e centrais do eixo X e Y.
-  - **Modo de Gravação:** Reinicia o RP2040 no modo de boot para gravação de firmware.
+  - **Calibração do Joystick:** Ajusta os valores máximos, mínimos e centrais do eixo X e Y.
+  - **Modo de Gravação:** Reinicia o RP2040 no modo de boot para gravação de firmware apertando o botão B.
 
 ## Hardware Utilizado
 - Placa de desenvolvimento **BitDogLab** com RP2040
@@ -21,6 +22,8 @@ Este projeto tem como objetivo explorar o uso de conversores analógico-digitais
 - **LED RGB** conectado aos GPIOs 11, 12 e 13
 - **Botão do Joystick** conectado ao GPIO 22
 - **Botão A** conectado ao GPIO 5
+- **Botão B** conectado ao GPIO 6
+- **Buzzer B** conectado ao GPIO 10
 - **Display SSD1306** conectado via I2C (GPIO 14 e 15)
 
 ## Requisitos do Projeto
@@ -45,7 +48,7 @@ Este projeto tem como objetivo explorar o uso de conversores analógico-digitais
 - **`ssd1306.c` e `ssd1306.h`**: Controle do display SSD1306.
 
 ## Demonstração
-- Um vídeo demonstrativo do funcionamento do projeto pode ser acessado em: [Demonstração](url).
+- Um vídeo demonstrativo do funcionamento do projeto pode ser acessado em: [Demonstração](https://youtu.be/I44Ojt_zDLI).
 
 ## Considerações Finais
 Este projeto é uma excelente oportunidade para consolidar conhecimentos em eletrônica embarcada, ADCs, PWM e comunicação I2C.
